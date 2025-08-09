@@ -8,6 +8,8 @@ import SecondProductItem from './Components/SecondProductItem.tsx';
 import MyButton from './Components/MyButton.tsx';
 import Hooks from './Components/Hooks.tsx';
 import CounterButton from './Components/CounterButton.tsx';
+import SharedInfo from './Components/SharedInfo.tsx';
+import Title from './Components/Title.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -18,5 +20,10 @@ createRoot(document.getElementById('root')!).render(
     <MyButton />
     <Hooks />
     <CounterButton />
+    <SharedInfo />
+    <Title
+      message="My First Title"
+      user={{ name: 'Felipe', age: 50, email: 'felipesanchez@gmail.com' }}
+    />
   </StrictMode>
 );
