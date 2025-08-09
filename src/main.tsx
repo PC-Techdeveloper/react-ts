@@ -5,6 +5,9 @@ import './index.css';
 //import SecondApp from './Components/SecondApp.tsx';
 import ProductItem from './Components/ProductItem.tsx';
 import SecondProductItem from './Components/SecondProductItem.tsx';
+import MyButton from './Components/MyButton.tsx';
+import Hooks from './Components/Hooks.tsx';
+import CounterButton from './Components/CounterButton.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -12,5 +15,8 @@ createRoot(document.getElementById('root')!).render(
     <ProductItem title="ITEM 2" id={2} />
     <ProductItem title="ITEM 3" id={3} />
     <SecondProductItem />
+    <MyButton />
+    <Hooks />
+    <CounterButton />
   </StrictMode>
 );
