@@ -2,10 +2,15 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
 //import App from './App.tsx';
-import SecondApp from './Components/SecondApp.tsx';
+//import SecondApp from './Components/SecondApp.tsx';
+import ProductItem from './Components/ProductItem.tsx';
+import SecondProductItem from './Components/SecondProductItem.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <SecondApp />
+    <ProductItem title="ITEM 1" id={1} />
+    <ProductItem title="ITEM 2" id={2} />
+    <ProductItem title="ITEM 3" id={3} />
+    <SecondProductItem />
   </StrictMode>
 );
