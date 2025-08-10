@@ -3,7 +3,11 @@ Controlling input:
 */
 
 const SecondForms = () => {
-  return <>hola mundo</>;
+  return (
+    <>
+      <h1>Second Forms</h1>
+    </>
+  );
 };
 
 export default SecondForms;
