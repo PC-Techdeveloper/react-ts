@@ -10,6 +10,7 @@ import Hooks from './Components/Hooks.tsx';
 import CounterButton from './Components/CounterButton.tsx';
 import SharedInfo from './Components/SharedInfo.tsx';
 import Title from './Components/Title.tsx';
+import Forms from './Components/Forms.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -25,5 +26,6 @@ createRoot(document.getElementById('root')!).render(
       message="My First Title"
       user={{ name: 'Felipe', age: 50, email: 'felipesanchez@gmail.com' }}
     />
+    <Forms />
   </StrictMode>
 );
