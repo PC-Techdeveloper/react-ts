@@ -16,6 +16,7 @@ import UseEffect from './Components/UseEffect.tsx';
 import Modal from './Components/Modal.tsx';
 import SecondModal from './Components/SecondModal.tsx';
 import Apis from './Components/Apis.tsx';
+import AsyncAwait from './Components/AsyncAwait.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -37,5 +38,7 @@ createRoot(document.getElementById('root')!).render(
     <Modal />
     <SecondModal />
     <Apis />
+    {/* Otra manera de invocar un componente */}
+    <AsyncAwait></AsyncAwait>
   </StrictMode>
 );
