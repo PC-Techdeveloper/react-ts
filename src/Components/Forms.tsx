@@ -33,15 +33,15 @@ const Forms = () => {
 
   return (
     <div>
-      <h1>Forms</h1>
+      <h1>Forms No controlling</h1>
       <form onSubmit={handleSubmit} ref={formRef}>
-        <input type="text" name="username" placeholder="Your username" />
+        <input type="text" name="usuario" placeholder="Nombre de usuario" />
 
         <br />
 
         <select name="color" defaultValue="">
           <option value="" disabled>
-            Choose a color
+            Modificar a color
           </option>
           <option value="red">Red</option>
           <option value="blue">Blue</option>
@@ -51,10 +51,11 @@ const Forms = () => {
         <br />
 
         <label>
-          <input type="checkbox" name="accept" />I accept the terms
+          <input type="checkbox" name="accept" />
+          Aceptar términos y condiciones
         </label>
 
-        <button type="submit">Submit</button>
+        <button type="submit">Enviar</button>
       </form>
     </div>
   );
