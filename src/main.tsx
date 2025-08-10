@@ -11,6 +11,7 @@ import CounterButton from './Components/CounterButton.tsx';
 import SharedInfo from './Components/SharedInfo.tsx';
 import Title from './Components/Title.tsx';
 import Forms from './Components/Forms.tsx';
+import SecondForms from './Components/SecondForms.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -27,5 +28,6 @@ createRoot(document.getElementById('root')!).render(
       user={{ name: 'Felipe', age: 50, email: 'felipesanchez@gmail.com' }}
     />
     <Forms />
+    <SecondForms />
   </StrictMode>
 );
