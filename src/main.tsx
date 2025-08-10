@@ -15,6 +15,7 @@ import SecondForms from './Components/SecondForms.tsx';
 import UseEffect from './Components/UseEffect.tsx';
 import Modal from './Components/Modal.tsx';
 import SecondModal from './Components/SecondModal.tsx';
+import Apis from './Components/Apis.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -35,5 +36,6 @@ createRoot(document.getElementById('root')!).render(
     <UseEffect />
     <Modal />
     <SecondModal />
+    <Apis />
   </StrictMode>
 );
