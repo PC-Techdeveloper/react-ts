@@ -17,9 +17,11 @@ import Modal from './Components/Modal.tsx';
 import SecondModal from './Components/SecondModal.tsx';
 import Apis from './Components/Apis.tsx';
 import AsyncAwait from './Components/AsyncAwait.tsx';
+import Context from './Components/Context/Context.tsx';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <Context />
     <ProductItem title="ITEM 1" id={1} />
     <ProductItem title="ITEM 2" id={2} />
     <ProductItem title="ITEM 3" id={3} />
