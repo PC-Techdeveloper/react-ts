@@ -1,5 +1,5 @@
 /* 
-Array de dependencias: Es una lista de variables que el efecto depende. Si alguna de estas variables cambia, el efecto se volverá a ejecutar. Si el array esta vacío, el efecto solo se ejecutará una vez, después del primer renderizado del componente.
+Array de dependencias []: Es una lista de variables que el efecto depende Si alguna de estas variables cambia, el efecto se volverá a ejecutar. Si el array esta vacío, el efecto solo se ejecutará una vez, después del primer renderizado del componente.
 */
 
 import { useEffect } from 'react';
