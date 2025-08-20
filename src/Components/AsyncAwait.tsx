@@ -7,6 +7,7 @@ const AsyncAwait = () => {
     title: string;
     completed: boolean;
   }
+
   const [data, setData] = useState<null | Todo>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<null | string>(null);
